@@ -2,9 +2,6 @@ import * as Types from "../types/users";
 
 const initialState = {
   users: {
-    // This object contains all users list
-    // this is mainly required in users listing page
-    // where we show all users list and loading icon if users are loading
     data: [],
     error: null,
     loading: false
@@ -12,7 +9,6 @@ const initialState = {
 };
 
 export default function(state = initialState, action) {
-  console.log("sdaxssss",action.type);
   switch (action.type) {
     // users Actions
 
