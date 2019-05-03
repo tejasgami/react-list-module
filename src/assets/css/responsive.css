@@ -1,0 +1,536 @@
+*{ -webkit-font-smoothing:antialiased; text-shadow:none !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;}
+
+/*--------------media query css start------------------*/
+@media (max-width:1700px) {
+    /*================ Homepage css start ================*/
+    .middle-wrap{ max-width:1300px;}
+
+    /*================ Verdor page css start ================*/
+    /*====== My services =====*/
+    .services-list{ max-width:80%;}
+
+    .inner-navbar .nav-item a i{ display: none;}
+
+}
+
+@media (min-width:1367px) {
+    /* === Common Css ==*/
+    .lg-pt-7, .lg-py-7 {
+        padding-top: 6rem!important;
+    }
+
+    .lg-pb-7, .lg-py-7 {
+        padding-bottom: 6rem!important;
+    }
+
+    /*================ Homepage css start ================*/
+    .header-sec .container-fluid{ padding-left:126px; padding-right:126px;}
+    .footer-sec .container-fluid{ padding-left:126px; padding-right:126px;}
+
+    /*================ List page css start ================*/
+    .top-head-area .container-fluid{ padding-left:126px; padding-right:126px;}
+
+    /*================ User profile page css start ================*/
+    .user-profile .login-wrap .right-wrap .sup-luxury-box .luxury-list li p{ font-size:20px;}
+
+}
+
+@media (max-width:1440px) {
+    /*================ Register page css start ================*/
+    .register-inner{ padding:90px 50px;}
+
+    /*================ Verdor page css start ================*/
+    /*====== My services =====*/
+    .services-list{ max-width:100%;}
+
+}
+
+@media (max-width:1366px) {
+    /* == Common Css ==*/
+    .input-hgt-md {
+        height:calc(3.5rem + 2px);
+    }
+
+    /*================ Homepage css start ================*/
+    .modal-content .close{ top:0; right:0;}
+    .header-sec .login-wrap .modal-dialog{ max-width:1200px;}
+    .login-wrap.modal-dialog{ max-width:1200px;}
+    .header-sec .login-wrap .close{ top:0; right:10px;}
+    .login-wrap .close{ top:0; right:10px;}
+    .login-wrap .left-wrap{ background-size:cover; min-height:inherit; padding:20px 50px;}
+    .login-wrap .left-wrap .form-control{ height:calc(3.5rem + 2px);}
+    .login-wrap .right-wrap{ background-size:cover; min-height:inherit; padding:25px;}
+    .contain-sec{ padding:70px 0;}
+    .middle-wrap{ max-width:1200px;}
+    .join-agent{ font-size:15px; width:150px; height:150px;}
+
+    /*================ List page css start ================*/
+    .top-nav-title .km-text{ font-size:18px;}
+    .filter-link{ font-size:18px;}
+    .filter-link i{ font-size:34px;}
+    .estate-works-item .item-overlay .category-img{ height:280px;}
+
+    /*================ Property Detail page css start ================*/
+    /*======== Picturs page css start ========*/
+    .over-high{ right:0;}
+
+    /*================ Register page css start ================*/
+    .register-inner{ padding:50px 15px;}
+
+}
+
+@media (max-width:1300px) {
+    /*================ Homepage css start ================*/
+    .header-sec .login-wrap .modal-dialog{ max-width:1190px;}
+    .login-wrap.modal-dialog{ max-width:1190px;}
+
+}
+
+@media (max-width:1200px) {
+    /*================ Homepage css start ================*/
+    .middle-wrap{ max-width:100%;}
+    .box-column p{ font-size:16px;}
+
+}
+
+@media (min-width:1101px) and (max-width:1199px) {
+    /*================ Homepage css start ================*/
+    .header-sec .login-wrap .modal-dialog{ max-width:1080px;}
+    .login-wrap.modal-dialog{ max-width:1080px;}
+    .login-wrap .left-wrap{  padding:20px;}
+    .login-wrap .right-wrap{ padding:20px;}
+    .login-wrap .right-wrap .sup-luxury-box .luxury-list li{ margin-right:20px;}
+    .login-wrap .right-wrap .buyrent-box .buy-inner a p{ font-size:17px;}
+
+}
+
+@media (max-width:1100px) {
+    /*================ Homepage css start ================*/
+    .header-sec .login-wrap .modal-dialog{ max-width:98%; top:auto; margin:1.75rem auto;}
+    .login-wrap.modal-dialog{ max-width:98%; top:auto; margin:1.75rem auto;}
+    .header-sec .login-wrap .modal.show .modal-dialog{ transform:none;}
+    .login-wrap.modal-dialog{ transform:none;}
+    .header-sec .login-wrap .modal-content{ display:block;}
+    .login-wrap .modal-content{ display:block;}
+    .header-sec .login-wrap .close{ color:#FFF; top:0; right:0;}
+    .login-wrap .close{ color:#FFF; top:0; right:0;}
+    .login-wrap .left-wrap{ width:100%;  min-height:inherit; padding:30px;}
+    .login-wrap .left-wrap .popup-text br{ display:none;}
+    .login-wrap .left-wrap .about-btn{ margin-bottom:40px;}
+    .login-wrap .right-wrap{ width:100%; min-height:inherit; padding:30px;}
+    .login-wrap .right-wrap .sup-luxury-box .luxury-list li{ margin-right:100px;}
+    .login-wrap .right-wrap .sup-luxury-box .search-link{ padding:5px 5px 5px 210px;}
+
+    /*================ List page css start ================*/
+    .list-min-div{ width:50%;}
+
+    /*================ Verdor page css start ================*/
+    /*====== My services =====*/
+    .services-list li{ font-size:16px;}
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:991px) {
+    /* === Common Css ==*/
+    .md-text-left {
+        text-align: left !important;
+    }
+
+    .md-d-block {
+        display: block !important;
+    }
+
+    .md-mt-1 {
+        margin-top: .25rem!important;
+    }
+
+    .md-mt-2 {
+        margin-top: .5rem!important;
+    }
+
+    .md-mt-3, .md-my-3 {
+        margin-top: 1rem!important;
+    }
+
+    .md-mb-3, .md-my-3 {
+        margin-bottom: 1rem!important;
+    }
+
+    .md-mt-4, .md-my-4 {
+        margin-top: 2rem!important;
+    }
+
+    .md-mb-4, .md-my-4 {
+        margin-bottom: 2rem!important;
+    }
+
+    .lg-pl-1p {
+        padding-left: 15px !important;
+    }
+
+    .lg-pr-1p {
+        padding-right: 15px !important;
+    }
+
+    /*================ Homepage css start ================*/
+    .contain-sec{ padding:50px 0;}
+    .middle-wrap h1{ font-size:34px;}
+    .middle-wrap .form-group{ max-width:100%;}
+
+    /*================ List page css start ================*/
+    .estate-works-item .item-overlay .category-img{ height:250px;}
+
+    /*================ Picturs page css start ================*/
+    .property-detail-popup .modal-dialog{ max-width:700px;}
+
+    /*================ User profile page css start ================*/
+    .user-profile .login-wrap .modal-dialog{ max-width:98%;}
+
+    /*====== Verdor page =====*/
+    .keyblog-right-min{ margin-right:0; padding:0 15px;}
+
+    .sharet-icon li { margin:8px;}
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    /*================ Homepage css start ================*/
+    .box-column{ padding:30px 5px;}
+    .box-column p{ font-size:15px; line-height:22px;}
+
+    /*================ List page css start ================*/
+    .top-nav-title .search-area{ text-align:left;}
+    .top-nav-title .search-area label{ display:block; text-align:left; margin-right:0; margin-bottom:5px;}
+
+}
+
+@media (max-width:767px) {
+    /* == Common Css ==*/
+    .sm-mt-3, .sm-my-3 {
+        margin-top: 1rem!important;
+    }
+
+    .sm-mb-3, .sm-my-3 {
+        margin-bottom: 1rem!important;
+    }
+
+    .sm-text-center {
+        text-align: center !important;
+    }
+
+    .sm-text-left {
+        text-align: left !important;
+    }
+
+    .xs-px-1 {
+        padding-left: .5rem !important;
+        padding-right: .5rem !important;
+    }
+
+    .xs-mt-1 {
+        margin-top: 15px !important;
+    }
+
+    /*================ Homepage css start ================*/
+    .login-wrap .left-wrap .form-group{ width:100%;}
+    .login-wrap .left-wrap .popup-text{ padding-left:0;}
+    .login-wrap .left-wrap .about-btn{ margin-left:0;}
+    .login-wrap .right-wrap .sup-luxury-box .luxury-list li{ margin-right:50px;}
+    .login-wrap .right-wrap .sup-luxury-box .search-link{ padding:5px 5px 5px 0;}
+    .contain-sec{ padding:50px 0;}
+    .box-wrap{ margin-bottom:50px;}
+    .middle-wrap h1{ font-size:28px;}
+    .middle-wrap .form-group{ margin:0 auto 40px auto;}
+    .middle-wrap .form-control{ height:calc(3.25rem + 2px); padding: 10px 40px;}
+    .box-column{ padding:20px;}
+    .join-agent-box{ padding:30px;}
+    .agent-inner h2{ font-size:26px;}
+    .agent-inner .find-key{ margin-bottom:20px;}
+    .join-area{ max-width:100%;}
+    .foot-nav{ display:block; text-align:center;}
+    .foot-nav .foot-nav-list{ margin-bottom:10px;}
+
+    /*================ List page css start ================*/
+    .top-nav-title .map-btn-area{ position:static; left:0; top:0px;}
+    .top-nav-title .map-btn{ margin-bottom:10px;}
+    .top-nav-title .search-area{ width:100%; display:flex; align-items:center; margin-bottom:0px;}
+    .top-nav-title .search-area label{ display:none;}
+    .top-nav-title .search-area .form-area{ width:100%;}
+    .top-nav-title .search-area .form-control{ padding:10px 20px; color:#747b8d;}
+    .top-nav-title .search-area .search-btn{ /*display:none;*/}
+    .top-nav-title .search-area .form-area::after{ display:none;}
+    .search-area .form-area::after{display: none;}
+    .search-area .form-control{padding: 10px 20px 10px 20px; font-size: 14px; height: calc(2.75rem + 2px);color: #fff;}
+    .search-area .search-btn{min-width: auto;font-size: 14px;padding: 5.5px 10px;}
+    .top-nav-title .km-text{ min-width:50px; margin-left:10px;}
+    .filter-link-area{ position:static; top:0px; right:0;}
+    .filter-link{ float: none;}
+    .list-min-div{ width:100%;}
+    .estate-works-item .item-overlay .category-img{ height:auto;}
+
+    /*================ Picturs page css start ================*/
+    .property-detail-popup .modal-dialog{ max-width:98%;}
+    .property-tab{ padding:15px;}
+    .property-tab li a span{ font-size:16px;}
+    .inner-navbar .navbar { text-align: center; width: 100%;}
+    .inner-navbar .nav-item { width: auto; float: left;}
+    .inner-navbar .nav-item a { padding: 0px 10px;}
+    .inner-navbar .nav-item a label { display: none;}
+    .inner-navbar .nav-item a i{ font-size: 20px;display: block;}
+    .add-pictures {
+        width: auto;
+    }
+    .sm-align-center{align-items: center;}
+    .inner-navbar .navbar-toggler { margin: 0 auto;}
+
+    /*================ User profile page css start ================*/
+    .user-profile .login-wrap .modal-dialog{ top:auto; margin:1.75rem auto;}
+    .user-profile .modal.show .modal-dialog{ transform:none;}
+    .user-profile .login-wrap .right-wrap{ padding:30px;}
+    .user-profile .login-wrap .right-wrap .sup-luxury-box .luxury-list li{ margin-right:50px;}
+
+}
+
+@media (max-width:640px) {
+    /*================ Homepage css start ================*/
+    .middle-wrap h1{ font-size:28px;}
+    .login-wrap .left-wrap .form-control{ font-size:16px;}
+    .login-wrap .left-wrap .popup-text{ font-size:18px; line-height:28px;}
+    .login-wrap .left-wrap .img-wrap{ align-items:flex-start;}
+    .login-wrap .left-wrap .img-wrap .img-inner img{ margin-right:5px; margin-bottom:10px;}
+    .login-wrap .right-wrap .buyrent-box .buy-inner a{ padding:15px;}
+    .login-wrap .right-wrap .buyrent-box .buy-inner a span{ font-size:15px;}
+    .login-wrap .right-wrap .buyrent-box .buy-inner a p{ font-size:15px;}
+    .login-wrap .right-wrap .sup-luxury-box{ padding:30px 15px 15px 15px; height:auto;}
+    .login-wrap .right-wrap a.premium-box{ position:relative; margin:15px auto 0 auto;}
+    .login-wrap .right-wrap .sup-luxury-box .search-link{ font-size:15px; position:static; padding:10px; border-radius:10px; display:block; margin-top:15px;}
+    .box-column{ padding:20px 10px;}
+
+    /*================ User profile page css start ================*/
+    .user-profile .login-wrap .right-wrap .sup-luxury-box{ padding: 30px 15px 15px 15px;}
+
+}
+
+@media (max-width:575px) {
+    /*=== Common Css ==*/
+    .xs-d-block {
+        display: block !important;
+    }
+
+    .Count-innerTab{
+        display: inline-block;
+    }
+
+    .col-xs-12 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .xs-font-16 {
+        font-size:16px !important;
+    }
+
+    .xs-w-100 {
+        width:100% !important;
+    }
+
+    .xs-text-center {
+        text-align: center !important;
+    }
+
+    .xs-text-left {
+        text-align: left !important;
+    }
+
+    .user-profile-picture {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .xs-mx-auto {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .xs-mt-3, .xs-my-3 {
+        margin-top: 1rem!important;
+    }
+
+    .xs-mb-3, .xs-my-3 {
+        margin-bottom: 1rem!important;
+    }
+
+    .xs-ml-5, .xs-mx-5 {
+        margin-bottom: 3rem!important;
+    }
+
+    .xs-mr-5, .xs-mx-5 {
+        margin-bottom: 3rem!important;
+    }
+
+    .xs-mb-5, .xs-my-5 {
+        margin-bottom: 3rem!important;
+    }
+
+    .xs-mt-5, .xs-my-5 {
+        margin-bottom: 3rem!important;
+    }
+
+    .xs-pl-0, .xs-px-0 {
+        padding-left: 0rem!important;
+    }
+
+    .xs-pr-0, .xs-px-0 {
+        padding-right: 0rem!important;
+    }
+
+    .xs-pl-2, .xs-px-2 {
+        padding-left: .5rem!important;
+    }
+
+    .xs-pr-2, .xs-px-2 {
+        padding-right: .5rem!important;
+    }
+
+    .xs-pb-2, .xs-py-2 {
+        padding-bottom: .5rem!important;
+    }
+
+    .xs-pt-2, .xs-py-2 {
+        padding-top: .5rem!important;
+    }
+
+    .xs-min-h-auto {
+        min-height:inherit !important;
+    }
+
+
+    /*================ Homepage css start ================*/
+    .header-sec .login-wrap{ position:absolute; left:0; top:80px;}
+    .header-sec .key-wrap{ position:absolute; top:80px; right:0;}
+    .box-wrap { display:block;}
+    .box-column{ width:100%; padding:20px 15px;}
+    .box-column + .box-column{ margin-top:15px;}
+
+    /*================ List page css start ================*/
+    .estate-works-item .estate-works-description .estate-details h4{ display:block !important;}
+    .estate-works-item .estate-works-description .estate-details span{ display:block; margin-bottom:10px;}
+    .estate-works-item .estate-works-description .estate-details h4 .small-btn{  margin-bottom:10px;}
+
+    /*================ Picturs page css start ================*/
+    .property-detail-tour .modal-dialog{ max-width:98%;}
+
+    /*================ Register page css start ================*/
+    .register-inner{ padding:30px 0;}
+
+    /*================ Verdor page css start ================*/
+    /*====== My services =====*/
+    .services-list li{ width:100%; margin-bottom:15px;}
+    .services-list li:last-child{ margin-bottom:0;}
+
+    .item-overlay img{ margin-bottom:10px;}
+
+
+    .statusform-wrap{
+        position: static;
+    }
+    .rating-wrap-small span span img{ height: 35px;}
+
+    .xs-application-buttons .btn{min-width: auto;}
+
+}
+
+@media (max-width:480px) {
+    /*================ Homepage css start ================*/
+    .login-wrap .left-wrap .img-wrap{ flex-direction: column;}
+    .login-wrap .left-wrap .img-wrap i{ margin:0 auto 15px auto;}
+    .login-wrap .left-wrap .img-wrap .img-inner img{ margin:0 5px 10px 5px;}
+    .login-wrap .right-wrap label{ text-align:center;}
+    .search-area .form-control{ padding: 10px 20px 10px 20px; margin-bottom:10px;}
+    .search-area .search-btn{ min-width: auto;font-size: 14px;padding: 5.5px 10px;}
+    .login-wrap .right-wrap .buyrent-box{ display:block; margin-bottom:0;}
+    .login-wrap .right-wrap .buyrent-box .buy-inner{ width:100%; margin-right:0; margin-bottom:15px;}
+    .login-wrap .right-wrap .sup-luxury-box .luxury-list{ flex-direction:column;}
+    .login-wrap .right-wrap .sup-luxury-box .luxury-list li{ margin-right:0; margin-bottom:15px;}
+    .login-wrap .right-wrap .sup-luxury-box .luxury-list li label{ left:100px;}
+    .middle-wrap h1{ font-size:20px;}
+    .join-agent-box{ padding:15px;}
+    .agent-inner h2{ font-size:18px;}
+    .agent-inner .find-key{ font-size:15px; line-height:normal;}
+    .join-area{ display:block;}
+    .join-area .join-area-box{ padding:15px;}
+    .join-area .join-area-box p{ font-size:15px;}
+    .join-area .join-circle{ margin: 20px auto 0 auto;}
+
+    /*================ List page css start ================*/
+    .top-nav-title .search-area .form-control{ margin-bottom:0;}
+    .estate-works-item .estate-works-description .estate-bottom-nav li a{ padding:5px;}
+
+    /*================ Picturs page css start ================*/
+    .property-tab{ flex-wrap:wrap; justify-content:center;}
+    .property-tab li{ width:33.3%; margin:10px 0;}
+
+    /*================ Verdor page css start ================*/
+    /*====== About me =====*/
+    .aboutme-tabs .nav-tabs .nav-item .nav-link {
+        font-size: 16px;
+        padding: 15px 10px;
+    }
+
+    /*================ User profile page css start ================*/
+    .user-profile .login-wrap .right-wrap .sup-luxury-box .luxury-list li{ margin-right:0;}
+
+}
+
+@media (max-width:375px) {
+    /*================ Homepage css start ================*/
+    .login-wrap .right-wrap .sup-luxury-box .luxury-list li label{ left:70px;}
+
+}
+
+@media (max-width:360px) {
+    /*================ Homepage css start ================*/
+    .estate-works-item .estate-works-description .estate-bottom-nav li a{ text-align:center;}
+
+    /*================ List page css start ================*/
+    #sidebar {
+        width: 300px;
+        right: -300px;
+    }
+
+    #sidebar .sidebar-header {
+        padding: 20px;
+    }
+
+    .filter-content {
+        padding: 20px;
+    }
+
+    .filter-content h6 {
+        font-size: 16px;
+    }
+
+    .filter-area {
+        font-size: 14px;
+    }
+
+
+
+
+    /*================ Picturs page css start ================*/
+    .property-tab li{ width:50%;}
+
+    /*================ Verdor page css start ================*/
+    /*====== About me =====*/
+    .aboutme-tabs .nav-tabs .nav-item .nav-link {
+        font-size: 14px;
+        padding: 15px 8px;
+    }
+
+}
